@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.wulias.view.MainActivity">
+
+    <com.wulias.view.img.ImgColor
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="180dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="50dp">
+        <ImageView
+            android:id="@+id/img_1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/a11"/>
+        <ImageView
+            android:id="@+id/img_2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/a22"/>
+        <ImageView
+            android:id="@+id/img_3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/a33"/>
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/color_type"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/color_r"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="R" />
+
+        <RadioButton
+            android:id="@+id/color_g"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="G" />
+
+        <RadioButton
+            android:id="@+id/color_b"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="B" />
+
+        <RadioButton
+            android:id="@+id/color_a"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="A" />
+    </RadioGroup>
+
+    <SeekBar
+        android:id="@+id/color_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:max="200"
+        android:min="0" />
+
+    <SeekBar
+        android:id="@+id/color_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:max="200"
+        android:min="0" />
+
+    <SeekBar
+        android:id="@+id/color_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+
+        android:max="200"
+        android:min="0" />
+
+    <SeekBar
+        android:id="@+id/color_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:max="200"
+        android:min="0" />
+
+    <SeekBar
+        android:id="@+id/color_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:max="200"
+        android:min="0" />
+
+</LinearLayout>
